@@ -1,0 +1,41 @@
+/* Comments
+===============================================================================*/
+.comment-form{
+	margin-bottom: 2em;
+	input,
+	textarea{
+		border-width: 1px;
+		border-style: solid;
+		border-color: $secondary-color;
+		padding-top: 0.5em;
+		padding-right: 1em;
+		padding-bottom: 0.5em;
+		padding-left: 1em;
+	}
+	input{
+		max-width: 332px;
+		width: 100%;
+	}
+	textarea{
+		width: 100%;
+		min-height: 150px;
+	}
+	.form-submit{
+		margin-top: 1em;
+		input{
+			border: none;
+			background-color: $secondary-color;
+			color: $secondary-font;
+			width: auto;
+		}
+		
+	}
+}
+.comment-header{
+	@extend %clearfix;
+	margin-bottom: 1em;
+	.comment-author-avatar{
+		float: left;
+		margin-right: 1em;
+	}
+}

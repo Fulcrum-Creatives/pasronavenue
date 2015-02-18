@@ -1,0 +1,28 @@
+/* Header Search
+===============================================================================*/
+.site-header-search{
+	padding-top: 43px;
+	margin: 0 auto;
+	@include media-query($bp-base){
+		width: 100%;
+	}
+	@include media-query(36.250em){
+		max-width: 317px;	
+	}
+	.searchform{
+		border-width: 1px;
+		border-style: solid;
+		border-color: $secondary-color;
+		float: right;
+		width: 100%;
+		p{
+			margin:0;
+		}
+		input{
+			width: 100%;
+			height: 38px;
+			padding-right: 1em;
+			padding-left: 1em;
+		}
+	}
+}

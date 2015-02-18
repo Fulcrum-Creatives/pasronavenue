@@ -1,0 +1,41 @@
+/* Footer
+===============================================================================*/
+.site-footer{
+	margin-bottom: 2em;
+}
+.site-footer-header{
+	text-align: center;
+	.florish-left,
+	.florish-right{
+		background-image: url(images/florish/footer-header-florish.png);
+		background-position: center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		display: inline-block;
+		@include media-query($bp-base){
+			display: none;
+		}
+		@include media-query($bp-tab-1){
+			width: 90px;
+			height: 17px;
+			display: inline-block;
+		}
+	}
+	.header-text{
+		@extend %bodoni;
+		color: $complementary-font;
+		display: inline-block;
+		@include media-query($bp-base){
+			@include font-size(14px);
+		}
+		@include media-query(40.938em){
+			@include font-size(18px);	
+		}
+		@include media-query(48.750em){
+			@include font-size(24px);	
+		}
+
+	}
+}

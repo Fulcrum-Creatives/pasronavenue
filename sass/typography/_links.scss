@@ -1,0 +1,20 @@
+/* Links
+================================================================================*/
+a{
+	color: $base-font-color;
+	&:link {
+		color: $base-font-color;
+	}
+	&:visited {
+		color: $base-font-color;
+	}
+	&:hover {
+		color: $base-font-color;
+	}
+	&:focus {
+		color: $base-font-color;
+	}
+	&:active {
+		color: $base-font-color;
+	}
+}

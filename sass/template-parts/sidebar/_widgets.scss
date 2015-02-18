@@ -1,0 +1,35 @@
+/* Widgets
+*************************************/
+.percentage-wrapper{
+	margin-top: 5em;
+	.percentage-heading{
+		@extend %bodoni;
+		color: $secondary-font;
+		text-align: center;
+		@include font-size(24px);
+	}
+	.percantage-number{
+		width: 177px;
+		height: 91px;
+		margin: 0 auto;
+		background-image: url(images/backgrounds/numbers-bg.png);
+		@extend %bodoni;
+		color: $secondary-font;
+		text-align: center;
+		@include font-size(77px);
+		line-height: 1em;
+		position: relative;
+		.percent{
+			@include font-size(40px);
+			top: -25px;
+			position: relative;
+		}
+	}
+	.percantage-text{
+		@include font-size(12px);
+		text-align: center;
+		width: 177px;
+		margin: 0 auto;
+		line-height: 1.2em
+	}
+}

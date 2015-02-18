@@ -1,0 +1,25 @@
+// Colors
+//================================================================================
+$base-background: #92a68e;
+$base-font-color: #575757;
+
+$secondary-color: #ffd700;
+$secondary-font: #777777;
+
+$complementary-font: #92a68e;
+// Typography
+//================================================================================
+$base-font-size: 16px;
+$base-line-height: ($base-font-size * 2) - ($base-font-size / 2);
+$golden-ratio: 1.61803398875;
+$base-font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+// Breakpoints
+//================================================================================
+$bp-base: 0em;
+$bp-mobile-1: 20.000em;
+$bp-mobile-2: 30.000em;
+$bp-tab-1: 37.500em;
+$bp-tab-2: 48.000em;
+$bp-tab-3: 63.938em;
+$bp-desk-1: 66.875em;
+$bp-desk-2: 71.250em;

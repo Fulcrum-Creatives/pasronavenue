@@ -1,0 +1,72 @@
+/* Base
+================================================================================*/
+html {
+	font-size: 62.5%;
+	@include font-size($base-font-size);
+  	line-height: $base-line-height;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	background-color: $base-background;
+	background-image: url(images/backgrounds/site-bg-001.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	font-family: $base-font-family;
+	color: $base-font-color;
+}
+.ir{
+	@extend %ir;
+}
+/* Layout
+===============================================================================*/
+.site-wrapper{
+	background-color: #fff;
+	overflow: hidden;
+	margin: 2em auto;
+	@include media-query($bp-base){
+		width: 94%;
+		padding: 2rem;
+		max-width: none;
+	}
+	@include media-query($bp-tab-2){
+		width: 772px;
+		max-width: 100%;
+	}
+	@include media-query($bp-tab-3){
+		width: 960px;
+		max-width: none;
+	}
+	@include media-query($bp-desk-2){
+		width: 1140px;
+		max-width: 100%;
+		padding: 3em;
+	}
+}
+.main-wrapper{
+	float: left;
+	@include media-query($bp-base){
+		width: 100%;
+	}
+	@include media-query($bp-tab-3){
+		width: 580px;
+	}
+	@include media-query($bp-desk-2){
+		width: 685px;	
+	}
+}
+.aside-wrapper{
+	display: inline;
+	float: right;
+	@include media-query($bp-base){
+		width: 100%;
+		margin-top: 2em;
+	}
+	@include media-query($bp-tab-3){
+		width: 272px;
+		margin-top: 0;
+	}
+	@include media-query($bp-desk-2){
+		width: 317px;	
+	}
+}

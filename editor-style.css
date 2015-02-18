@@ -1,0 +1,165 @@
+*,
+*:before,
+*:after {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+:-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+body {
+  -webkit-tap-highlight-color: #b3d4fc;
+}
+
+img::selection, img::-moz-selection {
+  background: transparent;
+}
+
+img,
+a img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+img {
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+  list-style-image: none;
+}
+
+dt {
+  font-weight: bold;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Typography
+================================================================================*/
+/* Headings
+================================================================================*/
+h1 {
+  font-size: 2.01em;
+  line-height: 1.49em;
+}
+
+h2 {
+  font-size: 1.81em;
+  line-height: 1.66em;
+}
+
+h3 {
+  font-size: 1.61em;
+  line-height: 1.87em;
+}
+
+h4 {
+  font-size: 1.4em;
+  line-height: 2.14em;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 2.5em;
+}
+
+h6 {
+  font-size: 1em;
+  line-height: 3em;
+}
+
+/* Paragraphs
+================================================================================*/
+p {
+  margin-bottom: 1.5em;
+}
+
+/* Lists
+================================================================================*/
+ul, ol {
+  margin-bottom: 1.5em;
+}
+
+/* Links
+================================================================================*/
+a {
+  color: #575757;
+}
+a:link {
+  color: #575757;
+}
+a:visited {
+  color: #575757;
+}
+a:hover {
+  color: #575757;
+}
+a:focus {
+  color: #575757;
+}
+a:active {
+  color: #575757;
+}

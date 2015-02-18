@@ -1,0 +1,30 @@
+/* Footer Sponsors
+===============================================================================*/
+.site-footer-sponsors{
+	margin: 0 auto;
+	margin-bottom: 2em;
+		ul{
+			@include hor-list-pos(center);
+		}
+		li{
+			padding-right: 0.5em;
+			padding-left: 0.5em;
+			padding-top: 2em;
+			vertical-align: bottom;
+			&.nationwide-childrens{
+				margin-right: 4em;
+			}
+		}
+		.sponsor-image{
+		a{
+			text-decoration: none;
+			color: $base-font-color;
+		}
+	}
+	@include media-query($bp-base){
+		width: 100%;
+	}
+	@include media-query(780px){
+		width: 65%;
+	}
+}

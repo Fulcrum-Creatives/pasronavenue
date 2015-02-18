@@ -1,0 +1,13 @@
+/* Logo
+===============================================================================*/
+.site-footer-logo-wrapper{
+	margin: 0 auto;
+	max-width: 588px;
+	.site-footer-logo{ 
+		background-image: url(images/logo-footer.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		height: 69px;
+	}
+}

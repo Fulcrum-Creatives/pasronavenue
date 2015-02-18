@@ -1,0 +1,33 @@
+/* Header Navigation
+===============================================================================*/
+.site-header-navigation{
+	width: 100%;
+	color: #335c7d;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-color: $secondary-color;
+	@extend %bodoni;
+	
+	ul{
+		@include hor-list-pos(left);
+	}
+	li{
+		padding-right: 1em;
+	}
+	a{
+		color: #335c7d;
+		display: block;
+		text-decoration: none;
+		padding-top: 0.5em;
+		padding-right: 0.5em;
+		padding-left: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	@include media-query($bp-base){
+		@include font-size(10px);
+	}
+	@include media-query(28.125em){
+		@include font-size(14px);	
+	}
+}

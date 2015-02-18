@@ -1,0 +1,13 @@
+/* Header logo
+===============================================================================*/
+.site-header-logo{
+	float: left;
+	a{
+		display: block;
+		width: 136px;
+		height: 83px;
+		background-image: url(images/logo-header.png);
+		background-repeat: no-repeat;
+		text-decoration: none;
+	}
+}

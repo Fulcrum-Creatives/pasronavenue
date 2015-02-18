@@ -1,0 +1,10 @@
+/* Header
+===============================================================================*/
+.site-header{
+	@extend %clearfix;
+	margin-bottom: 1em;
+	.row{
+		@extend %clearfix;
+		margin-bottom: 2em;
+	}
+}

@@ -1,0 +1,44 @@
+/* Sidebar
+===============================================================================*/
+.sidebar-logo-wrapper{
+	max-width: 331px;
+	margin: 0 auto;
+	.sidebar-logo-image{
+		background-image: url(images/we-are-building.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		height: 56px;
+	}
+}
+.social-links-wrapper{
+	@include font-size(12px);
+	margin-top: 2em;
+	ul{
+		@include hor-list-pos(center);
+		li{
+			margin-right: 1em;
+			@include media-query($bp-base){
+				margin-right: 1em;
+			}
+			@include media-query($bp-tab-3){
+				margin-right: -0.1em;	
+			}
+			@include media-query($bp-desk-2){
+				margin-right: 1em;	
+			}
+		}
+		li:last-child{
+			margin-right: 0;
+		}
+	}
+	a{
+		background-color: $secondary-color;
+		text-decoration: none;
+		color: $secondary-font;
+		padding-top: 0.5em;
+		padding-right: 1em;
+		padding-bottom: 0.5em;
+		padding-left: 1em;
+	}
+}

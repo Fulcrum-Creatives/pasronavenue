@@ -1,0 +1,77 @@
+/* Contact From
+*************************************/
+.sidebar-contact-wrapper{
+	background-color: #e6e7e8;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	margin-top: 5em;
+	.sibebar-contact-header{
+		max-width: 309px;
+		margin: 0 auto;
+	}
+	.sidbar-header-inner{
+		background-image: url(images/backgrounds/contact-bg.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		height: 20px;
+	}
+	.contect-header{
+		@extend %ir;
+	}
+	.gform_wrapper ul li.gfield{
+		margin-bottom: 1em;
+	}
+	.gform_wrapper .top_label .gfield_label{
+		display: none;
+	}
+	.gform_wrapper .top_label input.medium{
+		width: 99.2%;
+		padding-top: 1em;
+		padding-right: 1em;
+		padding-bottom: 1em;
+		padding-left: 1em;
+		@include font-size(12px);
+		color: $secondary-font;
+	}
+	.gform_wrapper .top_label input.large, 
+	.gform_wrapper .top_label select.large, 
+	.gform_wrapper .top_label textarea.textarea{
+		padding-top: 1em;
+		padding-right: 1em;
+		padding-bottom: 1em;
+		padding-left: 1em;
+		@include font-size(12px);
+		color: $secondary-font;
+	}
+	.gform_wrapper .gform_footer input.button, 
+	.gform_wrapper .gform_footer input[type=submit]{
+		padding-top: 1em;
+		padding-right: 1em;
+		padding-bottom: 1em;
+		padding-left: 1em;
+		@include font-size(12px);
+		background-color: $secondary-color;
+		width: 99.2%;
+		color: $secondary-font;
+	}
+	::-webkit-input-placeholder {
+	    color: $secondary-font;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	    color: $secondary-font;
+	}
+	::-moz-placeholder {  /* Firefox 19+ */
+	    color: $secondary-font;
+	}
+	:-ms-input-placeholder {  
+	   color: $secondary-font;
+	}
+	.gform_wrapper .gform_footer {
+		padding: 0;
+		margin-top: -0.2em;
+		margin-bottom: -0.5em;
+	}
+}

@@ -1,0 +1,14 @@
+// Functions
+//================================================================================
+// Calculate em from px
+//***********************************/
+@function calculateEm($size, $base-font-size: $base-font-size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}em;
+}
+// Calculate rem from px
+//***********************************/
+@function calculateRem($size, $base-font-size: $base-font-size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
